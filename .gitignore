@@ -1,0 +1,7 @@
+.gradle/
+.idea/
+build/
+.DS_Store
+src/.DS_Store
+src/gatling/.DS_Store
+src/gatling/scala/.DS_Store

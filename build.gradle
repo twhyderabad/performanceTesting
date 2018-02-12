@@ -1,0 +1,25 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "0.7.1"
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'com.xt.blazedemo'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'scala'
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.4'
+}
+
+//dependencies {
+//    classpath "gradle.plugin.com.github.lkishalmi.gatling:gradle-gatling-plugin:0.7.1"
+//}
+//
+//apply plugin: "com.github.lkishalmi.gatling"
+
+
+
